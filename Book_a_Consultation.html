@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking a Conslutation</title>
+    <link rel="icon" href="Images/favicon.png">
+    
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+    <script src="BootStrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Icons/css/all.min.css">
+    <script src="Icons/js/all.min.js"></script>
+
+    <style>
+        @font-face{
+            font-family: Cheque1;
+            src: url(Fonts/Cheque/Cheque-Regular.otf);
+        }
+        footer a{
+            color: black;
+        }
+        footer a:hover{
+            color: rgb(248, 20, 96);
+            transition: 0.25s;
+        }
+    </style>
+
+</head>
+<body>
+    <section id="form">
+        <form action="https://submit-form.com/uUKtjJJZx" method="POST" class="mt-5 border border-1 border-muted p-2" style="width: 60%; margin-left: 22%; border-radius: 15px;">
+            <p class="fw-semibold fs-4 text-center">BOOK A CONSULTATION</p>
+            <p class="text-muted text-center" style="font-size: 18px;">Take a first step towards your dream home a reality by meeting our in-house expert to discuss your design.
+                Simply fill the form below to book your appointment.
+            </p>
+            <hr>
+            <br>
+
+            <label for="location" class="form-label">Location<span class="text-danger">*</span></label>
+            <select name="location" id="location" required class="form-control">
+                <option value="None">Select Studio Location</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="New_Delhi">New Delhi</option>
+            </select>
+
+            <br>
+
+            <label for="name" class="form-label">Name<span class="text-danger">*</span></label>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name" required class="form-control">
+            
+            <br>
+
+            <label for="mob_no" class="form-label">Mobile Number<span class="text-danger">*</span></label>
+            <input type="text" name="mob_no" id="mob_no" placeholder="Enter Mobile Number" required class="form-control">
+            
+            <br>
+
+            <input type="checkbox" name="whatsapp" id="whatsapp" checked class="form-check-input">
+            <label for="whatsapp" class="form-check-label">Contact me on Whatsapp</label>
+            
+            <br><br>
+
+            <label for="mail_id" class="form-label">Mail ID<span class="text-danger">*</span></label>
+            <input type="email" name="mail-id" id="mai_id" placeholder="Enter Your Mail ID" required class="form-control">
+            
+            <br>
+
+            <label for="budget" class="form-label">Tentative Budget</label>
+            <select name="budget" id="budget" class="form-control">
+                <option value="None">Select Tentative Budget</option>
+                <option value="below_5L">Upto Rs. 5 Lakhs</option>
+                <option value="5Lto10L">Rs. 5 Lakhs to Rs. 10 Lakhs</option>
+                <option value="10Lto15L">Rs. 10 Lakhs to Rs. 15 Lakhs</option>
+                <option value="15Lto20L">Rs. 15 Lakhs to Rs. 20 Lakhs</option>
+                <option value="above_20L">Above Rs. 20 Lakhs</option>
+            </select>
+            
+            <br>
+            
+            <label for="interest" class="form-label">Interested In<span class="text-danger">*</span></label>
+            <select name="interest" id="interest" required class="form-control">
+                <option value="None">Please tell us about your interest</option>
+                <option value="full_house">Full House</option>
+                <option value="living_room">Living Room</option>
+                <option value="bedroom">Bedroom</option>
+                <option value="kitchen">Kitchen</option>
+                <option value="dining_room">Dining Room</option>
+                <option value="partial_home_interior">Partial Home Interior</option>
+            </select>
+            
+            <br>
+
+            <input type="submit" value="Submit" class=" btn btn-warning form-control">
+        </form>
+    </section>
+
+    <footer class="w-100 p-3 mt-3" style="background-color: rgb(190, 190, 190);">
+        <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-3 col-6">
+                <a href="index.html" class="text-decoration-none text-dark">
+                    <img src="Images/logo1.png" alt="DwellingDelightsLogos" class="image-fluid" width="100px" height="100px">
+                    <p class="fs-4" style="font-family: Cheque1;">Dwelling Delights</p>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6" id="About">
+                <p class="fw-bold mb-1">Company</p>
+                <ul class="list-unstyled ms-3">
+                    <li><a href="" class="text-decoration-none">About</a></li>
+                    <li><a href="" class="text-decoration-none">Blogs</a></li>
+                    <li><a href="" class="text-decoration-none">Careers</a></li>
+                    <li><a href="" class="text-decoration-none">Terms & Conditions</a></li>
+                    <li><a href="" class="text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="" class="text-decoration-none"></a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6" id="Help">
+                <p class="fw-bold mb-1">Help</p>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-decoration-none">Payment</a></li>
+                    <li><a href="" class="text-decoration-none">Shipment</a></li>
+                    <li><a href="" class="text-decoration-none">FAQ's</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6" id="Contact">
+                <p class="fw-bold mb-1">Contact</p>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-decoration-none">Contact Us</a></li>
+                    <li><a href="" class="text-decoration-none">Service and Support</a></li> 
+                    <li><a href="" class="text-decoration-none">Request a Callback</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6" id="Follow_Us">
+                <p class="fw-bold mb-1">Follow Us</p>
+                <ul class="d-flex list-unstyled">
+                    <li><a href="" class="me-3 fs-5"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="" class="me-3 fs-5"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="" class="me-3 fs-5"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="" class="fs-5"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
