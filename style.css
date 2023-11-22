@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Cheque;
+    src: url(Fonts/Cheque/Cheque-Regular.otf);
+}
+
+#mob{
+    display: none;
+}
+
+
+@media screen and (max-width:991px)  { 
+    #mob{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px)  { 
+    #lap_tab{
+        display: none;
+    }
+    #mob{
+        display: block;
+    }
+}
